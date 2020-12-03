@@ -1,4 +1,4 @@
-# Writing lua scripts
+# 编写lua脚本
 
 To get started with lua scripting, you'll need a suitable text editor. We suggest [VS Code](https://code.visualstudio.com/) or [Sublime Text](https://www.sublimetext.com/), but in theory [Notepad++](https://notepad-plus-plus.org/download/) or even the built-in Microsoft Notepad will probably work just fine. After choosing an editor, head over to
 

@@ -1,16 +1,16 @@
 # Table of contents
 
-* [Overview](README.md)
+* [总览](README.md)
 
-## Using this cheat
+## 使用辅助 <a id="using-this-cheat"></a>
 
-* [Using lua scripts](using-this-cheat/using-lua-scripts.md)
-* [Unlisted features](using-this-cheat/unlisted-features.md)
-* [Common issues](using-this-cheat/common-issues.md)
+* [使用lua脚本](using-this-cheat/using-lua-scripts.md)
+* [未列出的功能](using-this-cheat/unlisted-features.md)
+* [常见问题](using-this-cheat/common-issues.md)
 
-## DEVELOPERS
+## 开发者 <a id="developers"></a>
 
-* [Writing lua scripts](developers/writing-lua-scripts/README.md)
-  * [Getting started](developers/writing-lua-scripts/getting-started.md)
-  * [Examples](developers/writing-lua-scripts/examples.md)
+* [编写lua脚本](developers/writing-lua-scripts/README.md)
+  * [入门](developers/writing-lua-scripts/getting-started.md)
+  * [例子](developers/writing-lua-scripts/examples.md)
 

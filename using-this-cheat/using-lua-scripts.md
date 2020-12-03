@@ -1,4 +1,4 @@
-# Using lua scripts
+# 使用lua脚本
 
 ## Getting Super Powers
 

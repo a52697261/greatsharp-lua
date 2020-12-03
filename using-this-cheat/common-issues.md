@@ -1,4 +1,4 @@
-# Common issues
+# 常见问题
 
 ## Can I become who I want to be?
 
