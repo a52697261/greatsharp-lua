@@ -15,4 +15,5 @@
   * [Examples](developers/writing-lua-scripts/examples.md)
 * [API Documentation](developers/api-documentation/README.md)
   * [bit](developers/api-documentation/bit.md)
+  * [database](developers/api-documentation/database.md)
 
