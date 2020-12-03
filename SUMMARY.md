@@ -13,4 +13,6 @@
 * [Writing lua scripts](developers/writing-lua-scripts/README.md)
   * [Getting started](developers/writing-lua-scripts/getting-started.md)
   * [Examples](developers/writing-lua-scripts/examples.md)
+* [API Documentation](developers/api-documentation/README.md)
+  * [bit](developers/api-documentation/bit.md)
 
