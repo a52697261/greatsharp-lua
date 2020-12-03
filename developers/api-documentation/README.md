@@ -2,9 +2,7 @@
 
 Here are the articles in this section:
 
-{% page-ref page="./" %}
-
-
+{% page-ref page="bit.md" %}
 
 
 
