@@ -1,4 +1,4 @@
 # 例子
 
-These example show how to use certain parts of the gamesense API and highlight best practices.
+这些例子展示了如何使用greatsharp API的某些部分，并强调了最佳用法。
 

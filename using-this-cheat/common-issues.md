@@ -1,12 +1,8 @@
 # 常见问题
 
-## Can I become who I want to be?
+## 无法注入?
 
-That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
-
-## Have you had a chance to answer the previous question?
-
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+下载并安装 [DxSDK](https://www.microsoft.com/en-us/download/details.aspx?id=6812).
 
 
 
