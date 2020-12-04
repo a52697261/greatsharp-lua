@@ -17,4 +17,5 @@
   * [bit](developers/api-documentation/bit.md)
   * [http](developers/api-documentation/database.md)
   * [file](developers/api-documentation/untitled.md)
+  * [class](developers/api-documentation/class.md)
 
