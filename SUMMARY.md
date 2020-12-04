@@ -17,5 +17,8 @@
   * [bit](developers/api-documentation/bit.md)
   * [http](developers/api-documentation/database.md)
   * [file](developers/api-documentation/untitled.md)
-  * [class](developers/api-documentation/class.md)
+  * [class](developers/api-documentation/class/README.md)
+    * [GameObject](developers/api-documentation/class/gameobject.md)
+    * [AttackableUnit](developers/api-documentation/class/attackableunit.md)
+    * [AIBaseClient](developers/api-documentation/class/aibaseclient.md)
 
