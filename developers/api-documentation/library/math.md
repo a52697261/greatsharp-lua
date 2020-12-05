@@ -19,24 +19,16 @@ description: Math library.
 
 Returns if Line1 and Line2 have Intersection.
 
-### file.write <a id="database-read"></a>
+### Math.LineSegmentIntersection <a id="database-read"></a>
 
-`file.write(path: string, data: string)`
-
-| Argument | Type | Description |
-| :--- | :--- | :--- |
-| **path** | string | File path to write. |
-| **data** | string | Data for write. |
-
-Write a file.
-
-### file.read <a id="database-read"></a>
-
-`file.write(path: string, data: string)`
+`Math.LineSegmentIntersection(a1: Vector2, a2: Vector2, b1: Vector2, b2: Vector2)`: boolean
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
-| **path** | string | File path to read. |
+| **a1** | Vector2 | Segment 1 start |
+| **a2** | Vector2 | Segment1 end |
+| **b1** | Vector2 | Segment2 start |
+| **b2** | Vector2 | Segment2 end |
 
-Returns a string from give file.
+Returns if Line1 and Line2 have Intersection.
 
