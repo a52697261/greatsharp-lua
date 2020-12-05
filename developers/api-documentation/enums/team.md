@@ -4,17 +4,17 @@ description: 'GameTeamEnum : Integer'
 
 # Team
 
-`Neutral: 300`
+`Team.Neutral`: 300
 
-`Order:`100
+`Team.Order`: 100
 
-`Chaos:`200
+`Team.Chaos`: 200
 
-`Unknown:` 0
+`Team.Unknown`: 0
 
-`Enemy :` enemy team.
+`Team.Enemy`: enemy team.
 
-`Ally :` ally team.
+`Team.Ally`: ally team.
 
 
 

@@ -21,9 +21,9 @@ description: Inherited from GameObject class.
 
 ## Functions:
 
-### entity:IsWindingUp
+### :IsWindingUp
 
 `entity:IsWindingUp()`: boolean
 
-Returns if this entity is windingup.
+Returns if this entity is winding up.
 

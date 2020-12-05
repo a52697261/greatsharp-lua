@@ -4,11 +4,11 @@ description: 'Callback result :Integer'
 
 # CallbackResult
 
-`Success :` default result.
+`CallbackResult.Success` : default result.
 
-`Dispose :` unload this callback.
+`CallbackResult.Dispose` : unload this callback.
 
-`Cancel :`prevent this event called by game.
+`CallbackResult.Cancel`: prevent this event called by game.
 
-`CancelAndDispose :`prevent this event and unload this callback.
+`CallbackResult.CancelAndDispose`: prevent this event and unload this callback.
 

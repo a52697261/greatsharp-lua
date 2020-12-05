@@ -35,37 +35,37 @@ description: Base entity class.
 
 ## Functions:
 
-### entity:Level
+### :Level
 
 `entity:Level()`: number
 
 Returns the entity level.
 
-### entity:GetAddress
+### :GetAddress
 
 `entity:GetAddress()`: number
 
 Returns the entity's memory address.
 
-### entity:PrintAddress
+### :PrintAddress
 
 `entity:PrintAddress()`
 
 Print the entity's memory address on console.
 
-### entity:IsValid
+### :IsValid
 
 `entity:IsValid()`: boolean
 
 Returns if this is a valid entity.
 
-### entity:GetUniqueName
+### :GetUniqueName
 
 `entity:GetUniqueName()`: string
 
 Returns entity's unique name.
 
-### entity:GetData
+### :GetData
 
 `entity:GetData()`: table \(any\)
 
