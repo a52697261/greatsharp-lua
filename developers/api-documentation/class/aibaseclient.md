@@ -6,32 +6,72 @@ description: Inherited from GameObject  and AttackableUnit class.
 
 ## property:
 
-* `spellBook`\(Spellbook\)
-* \(boolean\)
-* `networkId` \(integer\)
-* `isVisibleOnScreen` \(boolean\)
-* `type` \(integer\)
-* `flags` \(integer\)
-* `displayName` \(string\)
-* `bboxMax`\(Vector3\)
-* `bboxMin` \(Vector3\)
-* `position`\(Vector3\)
-* `position2D`\(Vector2\)
-* `isVisible` \(boolean\)
-* `isAlive` \(boolean\)
-* `isMe` \(boolean\)
-* `hitboxRadius` \(float\)
-* `isStructure` \(boolean\)
-* `isAttacableUnit` \(boolean\)
-* `isAlly` \(boolean\)
-* `isEnemy` \(boolean\)
-* `isNeutral` \(boolean\)
-* `isMonster`  \(boolean\)
-* `isAIBase` \(boolean\)
-* `isMinion` \(boolean\)
-* `isHero`\(boolean\)
-* `isTurret` \(boolean\)
-* `isMissile` \(boolean\)
+* `spellBook`\([Spellbook](spellbook.md)\)
+* `isZombie`\(boolean\)
+* `charName`\(string\)
+* `actionState`\(integer\)
+* `actionState2`\(integer\)
+* `isMoving`\(boolean\)
+* `petOwner`\(AIBaseClient\)
+* `attackDelay`\(number\)
+* `attackCastDelay`\(number\)
+* `isClone`\(boolean\)
+* `dashSpeed`\(number\)
+* `isDashing`\(boolean\)
+* `serverPosition`\(Vector3\)
+* `isInvulnerable`\(boolean\)
+* `isMagicImmune`\(boolean\)
+* `isPhysicalImmune`\(boolean\)
+* `isUnstoppable`\(boolean\)
+* `totalHealth`\(number\)
+* `missingHealth`\(number\)
+* `totalMaxHealth`\(number\)
+* `totalMaxHealth`\(number\)
+* `totalShield`\(number\)
+* `canAttack`\(boolean\)
+* `canCrit`\(boolean\)
+* `canCast`\(boolean\)
+* `canMove`\(boolean\)
+* `isImmovable`\(boolean\)
+* `isStealthed`\(boolean\)
+* `isTaunted`\(boolean\)
+* `isFeared`\(boolean\)
+* `isFleeing`\(boolean\)
+* `isSupressed`\(boolean\)
+* `isAsleep`\(boolean\)
+* `isGhosted`\(boolean\)
+* `isCharmed`\(boolean\)
+* `isDisarmed`\(boolean\)
+* `isRooted`\(boolean\)
+* `isSilenced`\(boolean\)
+* `isStunned`\(boolean\)
+* `hasAABlockingBuff`\(boolean\)
+* `isMelee`\(boolean\)
+* `isRanged`\(boolean\)
+* `hash`\(integer\)
+* `totalBaseAttackDamage`\(number\)
+* `totalBonusAttackDamage`\(number\)
+* `totalAttackDamage`\(number\)
+* `totalAbilityPower`\(number\)
+* `isCasting`\(boolean\)
+* `isLaneMinion`\(boolean\)
+* `isSiegeMinion`\(boolean\)
+* `isSuperMinion`\(boolean\)
+* `isCasterdMinion`\(boolean\)
+* `isMeleeMinion`\(integer\)
+* `isPet`\(boolean\)
+* `isWard`\(boolean\)
+* `isWardNoBlue`\(boolean\)
+* `isTrap`\(boolean\)
+* `isPlant`\(boolean\)
+* `isLargeMonster`\(boolean\)
+* `isBaron`\(boolean\)
+* `isDragon`\(boolean\)
+* `isEpicMonster`\(boolean\)
+* `isSmiteMonster`\(boolean\)
+* `charIntermediate`\([CharIntermediate](charintermediate.md)\)
+
+
 
 ## Functions:
 
@@ -61,13 +101,13 @@ Returns the entity's active target.
 
 ### :GetSpellEntry
 
-`entity:GetSpellEntry(slot: SpellSlot)`: SpellEntry
+`entity:GetSpellEntry(slot: SpellSlot)`: [SpellBookEntry](spellbookentry.md)
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
 | **slot** | SpellSlot\(integer:0-64\) | SpellSlot enum. |
 
-Returns a SpellEntry.
+Returns a SpellBookEntry.
 
 ### :IsFacing
 
@@ -121,5 +161,54 @@ Returns if entity is a clone from source entity.
 
 Returns if entity can use spell of given slot.
 
+### :GetRealHealth
 
+`entity:GetRealHealth(msTime: number, type: DamageType)`: number
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **msTime** | `number(float)` | Time to predict HPRegenRate. |
+| **type** | `DamageType` | DamageType enum. |
+
+Returns entity real health include Shields and Blitzcrank's passive.
+
+### :GetBuff
+
+`entity:GetBuff(index: Integer)`: Buff
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **index** | Integer | Buff array index. |
+
+Returns a buff at \[index\].
+
+### :FindBuff
+
+`entity:GetBuff(hash: number)`: Buff
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **hash** | number\(Integer\) | Buff name Hash |
+
+Returns Buff find by fnv\_hash\(name\).
+
+### :GetBuffStacks
+
+`entity:GetBuffStacks(hash: number)`: number
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **hash** | number\(Integer\) | Buff name Hash |
+
+Returns Buff stacks find by fnv\_hash\(name\).
+
+### :GetAutoAttackRange
+
+`entity:GetAutoAttackRange([target: AttackableUnit])`: number
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **target** | `AttackableUnit` | Target could be null. |
+
+Returns real auto attack range \(worked for Azir , Aphelios ,Caitlyn and all heroes\).
 

@@ -1,0 +1,6 @@
+---
+description: SpellInfo class.
+---
+
+# SpellInfo
+
