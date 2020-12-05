@@ -133,7 +133,7 @@ Use an object like lantern.
 
 ### :HasBuffOfType
 
-`entity:HasBuffOfType(type: BuffType)`: boolean
+`entity:HasBuffOfType(type:` [`BuffType`](../enums/bufftype.md)`)`: boolean
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
@@ -174,7 +174,7 @@ Returns entity real health include Shields and Blitzcrank's passive.
 
 ### :GetBuff
 
-`entity:GetBuff(index: Integer)`: Buff
+`entity:GetBuff(index: Integer)`: [Buff](buff.md)
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
@@ -184,7 +184,7 @@ Returns a buff at \[index\].
 
 ### :FindBuff
 
-`entity:GetBuff(hash: number)`: Buff
+`entity:GetBuff(hash: number)`: [Buff](buff.md)
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |

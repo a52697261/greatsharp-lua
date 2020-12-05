@@ -8,7 +8,7 @@ description: SpellBook class.
 
 ### :GetSpellEntry
 
-`spellbook:GetSpellEntry(slot: SpellSlot):` SpellBookEntry
+`spellbook:GetSpellEntry(slot: SpellSlot):` [SpellBookEntry](spellbookentry.md)
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |

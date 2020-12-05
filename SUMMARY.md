@@ -38,4 +38,5 @@
     * [SpellBook](developers/api-documentation/class/spellbook.md)
     * [SpellBookEntry](developers/api-documentation/class/spellbookentry.md)
     * [SpellInfo](developers/api-documentation/class/spellinfo.md)
+    * [Buff](developers/api-documentation/class/buff.md)
 
