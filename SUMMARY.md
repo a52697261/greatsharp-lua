@@ -30,6 +30,7 @@
     * [file](developers/api-documentation/library/untitled.md)
     * [http](developers/api-documentation/library/database.md)
     * [bit](developers/api-documentation/library/bit.md)
+    * [Math](developers/api-documentation/library/math.md)
   * [class](developers/api-documentation/class/README.md)
     * [GameObject](developers/api-documentation/class/gameobject.md)
     * [AttackableUnit](developers/api-documentation/class/attackableunit.md)
