@@ -40,4 +40,7 @@
     * [SpellBookEntry](developers/api-documentation/class/spellbookentry.md)
     * [SpellInfo](developers/api-documentation/class/spellinfo.md)
     * [Buff](developers/api-documentation/class/buff.md)
+    * [Vector4](developers/api-documentation/class/vector4.md)
+    * [Vector2](developers/api-documentation/class/vector2.md)
+    * [Vector3](developers/api-documentation/class/vector3.md)
 

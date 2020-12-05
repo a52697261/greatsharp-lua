@@ -8,7 +8,7 @@ description: Math library.
 
 ### Math.LineIntersection <a id="database-read"></a>
 
-`Math.LineIntersection(a1: Vector2, a2: Vector2, b1: Vector2, b2: Vector2)`: boolean
+`Math.LineIntersection(a1:` [`Vector2`](../class/vector2.md)`, a2:` [`Vector2`](../class/vector2.md)`, b1:` [`Vector2`](../class/vector2.md)`, b2:` [`Vector2`](../class/vector2.md)`)`: boolean
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
@@ -21,7 +21,7 @@ Returns if Line1 and Line2 have Intersection.
 
 ### Math.LineSegmentIntersection <a id="database-read"></a>
 
-`Math.LineSegmentIntersection(a1: Vector2, a2: Vector2, b1: Vector2, b2: Vector2)`: boolean
+`Math.LineSegmentIntersection(a1:` [`Vector2`](../class/vector2.md)`, a2:` [`Vector2`](../class/vector2.md)`, b1:` [`Vector2`](../class/vector2.md)`, b2:` [`Vector2`](../class/vector2.md)`)`: boolean
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
@@ -31,4 +31,30 @@ Returns if Line1 and Line2 have Intersection.
 | **b2** | Vector2 | Segment2 end |
 
 Returns if Line1 and Line2 have Intersection.
+
+
+
+### Math.FastSqrt <a id="database-read"></a>
+
+`Math.FastSqrt(value: number)`: number
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **value** | number\(float\) | Number for sqrt. |
+
+Returns sqrt result.
+
+
+
+### Math.QuaternionRotation <a id="database-read"></a>
+
+`Math.QuaternionRotation(yaw: number, pitch: number, roll: number)`: [Vector4](../class/vector4.md)
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **yaw** | number\(float\) | Yaw |
+| **pitch** | number\(float\) | Pitch |
+| **roll** | number\(float\) | Angle |
+
+Returns Quaternion Rotation Vector4.
 
