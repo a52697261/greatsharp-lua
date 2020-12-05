@@ -4,21 +4,83 @@ description: 'BuffTypeEnum : Integer'
 
 # BuffType
 
-**BuffType.Invalid**
+`BuffType.Invalid`
 
-BuffType.Internal
+`BuffType.Internal`
 
-BuffType.Aura
+`BuffType.Aura`
 
-BuffType.CombatEnchancer
+`BuffType.CombatEnchancer`
 
-BuffType.CombatDehancer
+`BuffType.CombatDehancer`
 
-BuffType.SpellShield
+`BuffType.SpellShield`
 
-BuffType.Stun
+`BuffType.Stun`
 
-BuffType.Invisibility
+`BuffType.Invisibility`
 
-BuffType.Silence
+`BuffType.Silence`
+
+`BuffType.Taunt`
+
+`BuffType.Polymorph`
+
+`BuffType.Slow`
+
+`BuffType.Snare`
+
+`BuffType.Damage`
+
+`BuffType.Heal`
+
+`BuffType.Haste`
+
+`BuffType.SpellImmunity`
+
+`BuffType.PhysicalImmunity`
+
+`BuffType.Invulnerability`
+
+`BuffType.Taunt`
+
+`BuffType.AttackSpeedSlow`
+
+`BuffType.NearSight`
+
+`BuffType.Currency`
+
+`BuffType.Fear`
+
+`BuffType.Charm`
+
+`BuffType.Poison`
+
+`BuffType.Suppression`
+
+`BuffType.Blind`
+
+`BuffType.Counter`
+
+`BuffType.Shred`
+
+`BuffType.Flee`
+
+`BuffType.Knockup`
+
+`BuffType.Knockback`
+
+`BuffType.Disarm`
+
+`BuffType.Grounded`
+
+`BuffType.Drowsy`
+
+`BuffType.Asleep`
+
+`BuffType.Obscured`
+
+`BuffType.ClickproofToEnemies`
+
+`BuffType.UnKillable`
 
