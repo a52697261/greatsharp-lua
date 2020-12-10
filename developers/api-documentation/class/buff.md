@@ -29,7 +29,7 @@ Returns if buff is valid.
 
 `entry:GetName():` string
 
-Returns SpellData Name.
+Returns Buff Name.
 
 ### 
 
