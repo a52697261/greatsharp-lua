@@ -12,10 +12,10 @@ description: Math library.
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
-| **a1** | Vector2 | Line 1 start |
-| **a2** | Vector2 | Line 1 end |
-| **b1** | Vector2 | Line 2 start |
-| **b2** | Vector2 | Line 2 end |
+| **a1** | Vector2 | Line 1 start. |
+| **a2** | Vector2 | Line 1 end. |
+| **b1** | Vector2 | Line 2 start. |
+| **b2** | Vector2 | Line 2 end. |
 
 Returns if Line1 and Line2 have Intersection.
 
@@ -25,10 +25,10 @@ Returns if Line1 and Line2 have Intersection.
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
-| **a1** | Vector2 | Segment 1 start |
-| **a2** | Vector2 | Segment1 end |
-| **b1** | Vector2 | Segment2 start |
-| **b2** | Vector2 | Segment2 end |
+| **a1** | Vector2 | Segment 1 start. |
+| **a2** | Vector2 | Segment1 end. |
+| **b1** | Vector2 | Segment2 start. |
+| **b2** | Vector2 | Segment2 end. |
 
 Returns if Line1 and Line2 have Intersection.
 
