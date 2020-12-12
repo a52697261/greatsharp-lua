@@ -4,12 +4,10 @@ description: Vector2 class
 
 # Vector2
 
-
-
 ## property:
 
-* x\(number\)
-* y\(number\)
+* `x`\(number\)
+* `y`\(number\)
 
 ## Functions:
 
