@@ -144,7 +144,7 @@ Returns a normalized Vector2 from this vector.
 
 ### :Lerp <a id="database-read"></a>
 
-`vector2:Lerp(v2: Vector2)`: Vector2
+`vector2:Lerp(v2: Vector2, time: number)`: Vector2
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
@@ -227,6 +227,14 @@ Returns two numbers x,y.
 
 
 
+### :ToCell
+
+`vector2:ToCell()`: NavGridCell
+
+Returns navGridCell\(userdata\).
+
+
+
 ### :RelativePos <a id="database-read"></a>
 
 `vector2:RelativePos(v2: Vector2, distance: number)`: Vector2
@@ -236,7 +244,7 @@ Returns two numbers x,y.
 | **v2** | Vector2 | Point2. |
 | **distance** | number\(float\) | Distance to extended. |
 
-Returns a Vector2 that extened or shorter a given distance ****.
+Returns relative position in direction from v to v2 as Vector2.
 
 
 
@@ -299,18 +307,6 @@ Returns distance ****from this to line AB.
 | B | Vector3 | Line end. |
 
 Returns distance **square** from this to line AB.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
