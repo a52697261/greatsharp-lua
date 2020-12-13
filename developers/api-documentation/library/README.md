@@ -1,6 +1,6 @@
 ---
-description: Libraries
+description: libraries
 ---
 
-# Library
+# library
 

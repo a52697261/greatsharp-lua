@@ -27,7 +27,7 @@
     * [CameraController](developers/api-documentation/enums/cameracontroller.md)
     * [CellFlag](developers/api-documentation/enums/cellflag.md)
     * [DamageType](developers/api-documentation/enums/damagetype.md)
-  * [Library](developers/api-documentation/library/README.md)
+  * [library](developers/api-documentation/library/README.md)
     * [file](developers/api-documentation/library/untitled.md)
     * [http](developers/api-documentation/library/database.md)
     * [bit](developers/api-documentation/library/bit.md)

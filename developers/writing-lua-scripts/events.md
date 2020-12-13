@@ -10,15 +10,13 @@ description: List of events that you can listen to using Callback.Bind
 
 Fired when script init.
 
-## OnFastTick
+### OnFastTick
 
 Fired when game update\(every frame\).
 
-## OnTick
+### OnTick
 
 Fired when game update\(30 per/second\).
-
-
 
 ### OnDraw
 
