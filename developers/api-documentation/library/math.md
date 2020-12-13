@@ -58,3 +58,45 @@ Returns sqrt result.
 
 Returns Quaternion Rotation Vector4.
 
+
+
+### Math.Vector4 <a id="database-read"></a>
+
+`Math.Vector4(x: number, y: number, z: number, w: number)`: [Vector4](../class/vector4.md)
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **x** | number\(float\) | x |
+| **y** | number\(float\) | y |
+| **z** | number\(float\) | z |
+| **w** | number\(float\) | w |
+
+Returns Vector4.
+
+
+
+### Math.Vector3 <a id="database-read"></a>
+
+`Math.Vector3(x: number, y: number, z: number)`: [Vector3](../class/vector3.md)
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **x** | number\(float\) | x |
+| **y** | number\(float\) | y |
+| **z** | number\(float\) | z |
+
+Returns Vector3.
+
+
+
+### Math.Vector2 <a id="database-read"></a>
+
+`Math.Vector2(x: number, y: number)`: [Vector2](../class/vector2.md)
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **x** | number\(float\) | x |
+| **y** | number\(float\) | y |
+
+Returns Vector2.
+

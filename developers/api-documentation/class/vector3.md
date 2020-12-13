@@ -78,7 +78,7 @@ Returns vector length **square**.
 
 ### :Distance <a id="database-read"></a>
 
-`vector3:Distance(v3: Vector3)`: number
+`vector3:Distance(v2: Vector3)`: number
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
@@ -102,11 +102,11 @@ Returns distance **square** from v to v2.
 
 ### :Dot <a id="database-read"></a>
 
-`vector2:Dot(v2: Vector2)`: number
+`vector2:Dot(v2: Vector3)`: number
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
-| **v2** | Vector2 | Point2. |
+| **v2** | Vector3 | Point2. |
 
 Returns dot product result.
 
