@@ -8,5 +8,6 @@ If you're unfamiliar with the Lua programming language, [Lua in 5 minutes](https
 
 ## Things to keep in mind:
 
-* By default, all loaded lua scripts share the same environment. This means that if 2 scripts use a global variable with the same name, they will conflict with each other and cause all kinds of issues. To prevent this, always remember to make your variables, functions, etc **local**
+* By default, all loaded lua modules **do not** share the same environment. This means that  2 modules could use a global variable with the same name.
+* ~~To prevent this, always remember to make your variables, functions, etc **local**~~
 
