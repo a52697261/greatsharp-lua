@@ -20,7 +20,9 @@ Fired when game update\(30 per/second\).
 
 ### OnDraw
 
-Fired every time the game renders a frame . Can be used to draw to the screen using the Screen.\* functions
+Fired every time the game renders a frame . Can be used to draw to the screen using the Screen.\* functions.
+
+
 
 
 
