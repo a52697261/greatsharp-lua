@@ -8,7 +8,7 @@ description: Math library.
 
 ### Math.LineIntersection <a id="database-read"></a>
 
-`Math.LineIntersection(a1:` [`Vector2`](../class/vector2.md)`, a2:` [`Vector2`](../class/vector2.md)`, b1:` [`Vector2`](../class/vector2.md)`, b2:` [`Vector2`](../class/vector2.md)`)`: boolean
+`Math.LineIntersection(a1:` [`Vector2`](class/vector2.md)`, a2:` [`Vector2`](class/vector2.md)`, b1:` [`Vector2`](class/vector2.md)`, b2:` [`Vector2`](class/vector2.md)`)`: boolean
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
@@ -21,7 +21,7 @@ Returns if Line1 and Line2 have Intersection.
 
 ### Math.LineSegmentIntersection <a id="database-read"></a>
 
-`Math.LineSegmentIntersection(a1:` [`Vector2`](../class/vector2.md)`, a2:` [`Vector2`](../class/vector2.md)`, b1:` [`Vector2`](../class/vector2.md)`, b2:` [`Vector2`](../class/vector2.md)`)`: boolean
+`Math.LineSegmentIntersection(a1:` [`Vector2`](class/vector2.md)`, a2:` [`Vector2`](class/vector2.md)`, b1:` [`Vector2`](class/vector2.md)`, b2:` [`Vector2`](class/vector2.md)`)`: boolean
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
@@ -48,7 +48,7 @@ Returns sqrt result.
 
 ### Math.QuaternionRotation <a id="database-read"></a>
 
-`Math.QuaternionRotation(yaw: number, pitch: number, roll: number)`: [Vector4](../class/vector4.md)
+`Math.QuaternionRotation(yaw: number, pitch: number, roll: number)`: [Vector4](class/vector4.md)
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
@@ -62,7 +62,7 @@ Returns Quaternion Rotation Vector4.
 
 ### Math.Vector4 <a id="database-read"></a>
 
-`Math.Vector4(x: number, y: number, z: number, w: number)`: [Vector4](../class/vector4.md)
+`Math.Vector4(x: number, y: number, z: number, w: number)`: [Vector4](class/vector4.md)
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
@@ -77,7 +77,7 @@ Returns Vector4.
 
 ### Math.Vector3 <a id="database-read"></a>
 
-`Math.Vector3(x: number, y: number, z: number)`: [Vector3](../class/vector3.md)
+`Math.Vector3(x: number, y: number, z: number)`: [Vector3](class/vector3.md)
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
@@ -91,7 +91,7 @@ Returns Vector3.
 
 ### Math.Vector2 <a id="database-read"></a>
 
-`Math.Vector2(x: number, y: number)`: [Vector2](../class/vector2.md)
+`Math.Vector2(x: number, y: number)`: [Vector2](class/vector2.md)
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
