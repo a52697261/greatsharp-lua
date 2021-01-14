@@ -37,6 +37,7 @@
   * [ObjectManager](developers/api-documentation/objectmanager.md)
   * [SDK types and functions](developers/api-documentation/sdk-types-and-functions/README.md)
     * [TargetSelector](developers/api-documentation/sdk-types-and-functions/targetselector.md)
+    * [Champions](developers/api-documentation/sdk-types-and-functions/champions.md)
     * [SDKSpell](developers/api-documentation/sdk-types-and-functions/sdkspell.md)
     * [Orbwalker](developers/api-documentation/sdk-types-and-functions/orbwalker.md)
     * [PredictionOutput](developers/api-documentation/sdk-types-and-functions/predictionoutput.md)
