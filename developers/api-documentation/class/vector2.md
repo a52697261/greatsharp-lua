@@ -308,5 +308,67 @@ Returns distance ****from this to line AB.
 
 Returns distance **square** from this to line AB.
 
+### :IsUnderEnemyTurret
+
+`vector2:IsUnderEnemyTurret()`: boolean
+
+Returns if vector2 is under enemy turret.
+
+
+
+### :IsUnderAllyTurret
+
+`vector2:IsUnderAllyTurret()`: boolean
+
+Returns if vector2 is under ally turret.
+
+
+
+### :CountAlliesInRange
+
+`vector2:CountAlliesInRange(range: number)`: number
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **range** | number | Check range. |
+
+Returns if how many **valid**  allies is in vector2 range\(**include me**\).
+
+
+
+### :CountAllyLaneMinionsInRange
+
+`vector2:CountAllyLaneMinionsInRange(range: number)`: number
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **range** | number | Check range. |
+
+Returns if how many **valid** ally minions is in vector2 range.
+
+
+
+### :CountEnemiesInRange
+
+`vector2:CountEnemiesInRange(range: number)`: number
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **range** | number | Check range. |
+
+Returns if how many **valid** enemies is in vector2 range.
+
+
+
+### :IsWall
+
+`vector2:IsWall(actorTeam: number)`: boolean
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **actorTeam** | number:integer | Actor team to check special air wall .\(300 == ignore air wall\) |
+
+Returns if vector2 is not walkable.
+
 
 

@@ -1,5 +1,5 @@
 ---
-description: Inherited from GameObject  and AttackableUnit class.
+description: Inherited from GameObject and AttackableUnit class.
 ---
 
 # AIBaseClient
@@ -81,11 +81,15 @@ description: Inherited from GameObject  and AttackableUnit class.
 
 Returns the entity is a bot.
 
+
+
 ### :GetDirection
 
 `entity:GetDirection()`: Vector3
 
 Returns the entity's direction vector.
+
+
 
 ### :GetPet
 
@@ -93,11 +97,29 @@ Returns the entity's direction vector.
 
 Returns the entity's pet.
 
+
+
 ### :GetTarget
 
 `entity:GetTarget()`: AttackableUnit
 
 Returns the entity's active target.
+
+### :GetWayPoint
+
+`entity:GetWayPoint()`: Vector3
+
+Returns the entity's last waypoint.
+
+
+
+### :GetRemainingPath2D
+
+`entity:GetRemainingPath2D()`: std::vector&lt;Vector2&gt;
+
+Returns the entity's remaining path array.
+
+
 
 ### :GetSpellEntry
 
@@ -108,6 +130,20 @@ Returns the entity's active target.
 | **slot** | SpellSlot\(integer:0-64\) | SpellSlot enum. |
 
 Returns a SpellBookEntry.
+
+
+
+### :GetAutoAttackDamage
+
+`entity:GetAutoAttackDamage(target: AttackableUnit)`: number
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **target** | AttackableUnit | Target. |
+
+Returns a entity's auto attack damage to target.
+
+
 
 ### :IsFacing
 
@@ -121,6 +157,8 @@ Returns a SpellBookEntry.
 
 Returns if entity is facing source \(inside cone\).
 
+
+
 ### :UseObject
 
 `entity:UseObject(target: AttackableUnit)`
@@ -129,7 +167,9 @@ Returns if entity is facing source \(inside cone\).
 | :--- | :--- | :--- |
 | **target** | AttackableUnit | Target to use. |
 
-Use an object like lantern.
+Use an object like lantern etc.
+
+
 
 ### :HasBuffOfType
 
@@ -141,6 +181,8 @@ Use an object like lantern.
 
 Returns if has buff of type.
 
+
+
 ### :IsCloneFrom
 
 `entity:IsCloneFrom(source: AIBaseClient)`: boolean
@@ -151,6 +193,8 @@ Returns if has buff of type.
 
 Returns if entity is a clone from source entity.
 
+
+
 ### :CanUseSpell
 
 `entity:CanUseSpell(slot: SpellSlot)`: boolean
@@ -160,6 +204,8 @@ Returns if entity is a clone from source entity.
 | **slot** | SpellSot\(integer:0-64\) | SpellSlot enum. |
 
 Returns if entity can use spell of given slot.
+
+
 
 ### :GetRealHealth
 
@@ -172,6 +218,8 @@ Returns if entity can use spell of given slot.
 
 Returns entity real health include Shields and Blitzcrank's passive.
 
+
+
 ### :GetBuff
 
 `entity:GetBuff(index: Integer)`: [Buff](buff.md)
@@ -181,6 +229,8 @@ Returns entity real health include Shields and Blitzcrank's passive.
 | **index** | Integer | Buff array index. |
 
 Returns a buff at \[index\].
+
+
 
 ### :FindBuff
 
@@ -192,6 +242,8 @@ Returns a buff at \[index\].
 
 Returns Buff find by fnv\_hash\(name\).
 
+
+
 ### :GetBuffStacks
 
 `entity:GetBuffStacks(hash: number)`: number
@@ -201,6 +253,8 @@ Returns Buff find by fnv\_hash\(name\).
 | **hash** | number\(Integer\) | Buff name Hash |
 
 Returns Buff stacks find by fnv\_hash\(name\).
+
+
 
 ### :GetAutoAttackRange
 

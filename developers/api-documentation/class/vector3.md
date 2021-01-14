@@ -233,3 +233,79 @@ Returns **flat** distance ****from this to v2.
 
 Returns **flat** distance ****from this to v2.
 
+
+
+### :IsUnderEnemyTurret
+
+`vector3:IsUnderEnemyTurret()`: boolean
+
+Returns if vector3 is under enemy turret.
+
+
+
+### :IsUnderAllyTurret
+
+`vector3:IsUnderAllyTurret()`: boolean
+
+Returns if vector3 is under ally turret.
+
+
+
+### :CountAlliesInRange
+
+`vector3:CountAlliesInRange(range: number)`: number
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **range** | number | Check range. |
+
+Returns if how many **valid**  allies is in vector3 range\(**include me**\).
+
+
+
+### :CountAllyLaneMinionsInRange
+
+`vector3:CountAllyLaneMinionsInRange(range: number)`: number
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **range** | number | Check range. |
+
+Returns if how many **valid** ally minions is in vector3 range.
+
+### :CountEnemyLaneMinionsInRange
+
+`vector3:CountEnemyLaneMinionsInRange(range: number)`: number
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **range** | number | Check range. |
+
+Returns if how many **valid** enemy **lane** minions is in vector3 range.
+
+
+
+### :CountEnemiesInRange
+
+`vector3:CountEnemiesInRange(range: number)`: number
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **range** | number | Check range. |
+
+Returns if how many **valid** enemies is in vector3 range.
+
+
+
+### :IsWall
+
+`vector3:IsWall(actorTeam: number)`: boolean
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **actorTeam** | number:integer | Actor team to check special air wall . \(300 == ignore air wall\) |
+
+Returns if vector3 is not walkable.
+
+
+

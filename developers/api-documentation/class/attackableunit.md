@@ -18,6 +18,9 @@ description: Inherited from GameObject class.
 * `lifetimeTicks`\(number\)
 * `physicalDamagePercentageModifier`\(number\)
 * `magicalDamagePercentageModifier`\(number\)
+* `hpPercent`\(number\)
+* `mpPercent`\(number\)
+* `isVisible`\(boolean\)
 
 ## Functions:
 
@@ -26,4 +29,18 @@ description: Inherited from GameObject class.
 `entity:IsWindingUp()`: boolean
 
 Returns if this entity is winding up.
+
+
+
+### :IsValidTarget
+
+`entity:IsValidTarget([range: number, onlyEnemyTeam: number, from: [Vector2 or Vector3]])`: boolean
+
+| Argument | Type | Description |
+| :--- | :--- | :--- |
+| **range** | number | Check range. |
+| **onlyEnemyTeam** | bool | Check target team. |
+| **from** | Vector2 or Vector3 | Check from pos. |
+
+Returns if this entity is valid target.
 
