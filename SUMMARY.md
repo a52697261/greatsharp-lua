@@ -36,6 +36,7 @@
     * [castargs\_t](developers/api-documentation/callback-args/castargs_t.md)
   * [ObjectManager](developers/api-documentation/objectmanager.md)
   * [SDK types and functions](developers/api-documentation/sdk-types-and-functions/README.md)
+    * [SDKSpell](developers/api-documentation/sdk-types-and-functions/sdkspell.md)
     * [UI](developers/api-documentation/sdk-types-and-functions/ui/README.md)
       * [Slider](developers/api-documentation/sdk-types-and-functions/ui/slider.md)
       * [ColorPicker](developers/api-documentation/sdk-types-and-functions/ui/colorpicker.md)
