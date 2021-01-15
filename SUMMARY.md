@@ -31,6 +31,7 @@
     * [file](developers/api-documentation/library/untitled.md)
     * [http](developers/api-documentation/library/database.md)
     * [bit](developers/api-documentation/library/bit.md)
+  * [Game](developers/api-documentation/game.md)
   * [Math](developers/api-documentation/math.md)
   * [Callback Args](developers/api-documentation/callback-args/README.md)
     * [castargs\_t](developers/api-documentation/callback-args/castargs_t.md)
