@@ -39,6 +39,7 @@
     * [TargetSelector](developers/api-documentation/sdk-types-and-functions/targetselector.md)
     * [Champions](developers/api-documentation/sdk-types-and-functions/champions.md)
     * [skirmishData](developers/api-documentation/sdk-types-and-functions/skirmishdata.md)
+    * [ChampionTracker](developers/api-documentation/sdk-types-and-functions/championtracker.md)
     * [SDKSpell](developers/api-documentation/sdk-types-and-functions/sdkspell.md)
     * [Orbwalker](developers/api-documentation/sdk-types-and-functions/orbwalker.md)
     * [PredictionOutput](developers/api-documentation/sdk-types-and-functions/predictionoutput.md)

@@ -42,7 +42,7 @@ description: SDKSpell for easy cast spell.
 | **range** | number | Spell range. |
 | **damageType** | DamageType | Damage type. |
 
-Create a  sdk spell instance.
+Create a sdk spell instance.
 
 **​**‌
 
