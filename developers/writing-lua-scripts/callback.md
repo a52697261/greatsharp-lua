@@ -159,6 +159,17 @@ Fired ****when new path create.
 
 **Note**: I think sometimes this callback is not reliable.When Leesin R kick someone path may incorrect.
 
+{% code title="Example for OnNewpath callback." %}
+```lua
+Callback.Bind(CallbackType.OnNewPath,function(sender,isDash,dashSpeed,path)
+    for i, v in path:pairs() do
+         PrintChat(tostring(i))
+         PrintChat(tostring(v))
+    end
+end)
+```
+{% endcode %}
+
 
 
 
