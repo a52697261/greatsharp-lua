@@ -48,12 +48,13 @@ Create a sdk spell instance.
 
 ### :SetSkillshot
 
-`spell:SetSkillshot(delay: number, width: number, type: SkillshotType, collision: boolean, collisionFlags: CollisionFlag, minHitChance: HitChance, boundingRadiusMod: boolean)`
+`spell:SetSkillshot(delay: number, width: number, speed: number, type: SkillshotType, collision: boolean, collisionFlags: CollisionFlag, minHitChance: HitChance, boundingRadiusMod: boolean)`
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
 | **delay** | number | Spell delay. |
 | **width** | number | Spell width. |
+| **speed** | number | Spell missile speed. |
 | **type** | SkillshotType | SkillshotType`.` |
 | **collision** | boolean | Should calculate collision. |
 | **collisionFlags** | CollisionFlag | Collision flags**.** |
