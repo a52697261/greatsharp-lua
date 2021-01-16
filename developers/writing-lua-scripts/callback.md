@@ -146,7 +146,18 @@ Fired ****when print a message to game chat.
 
 
 
+### OnNewPath
 
+Fired ****when new path create.
+
+| Key | Description |
+| :--- | :--- |
+| **sender** | AIbaseClient**.** |
+| **isDash** | boolean. |
+| **dashSpeed** | number. |
+| **path** | Path array. |
+
+**Note**: I think sometimes this callback is not reliable.When Leesin R kick someone path may incorrect.
 
 
 
