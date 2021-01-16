@@ -14,7 +14,7 @@ description: Bind or unbind event.
 
 | Argument | Type | Description |
 | :--- | :--- | :--- |
-| **type** | [CallbackType](../enums/callback.md) | CallbackType. |
+| **type** | [CallbackType](../../writing-lua-scripts/callback.md) | CallbackType. |
 | **callback** | function | Callback function. |
 | **priority** | number\(integer\) | Callback priority\(default 0\) |
 
