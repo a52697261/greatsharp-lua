@@ -14,6 +14,7 @@
   * [Getting started](developers/writing-lua-scripts/getting-started.md)
   * [CallbackType](developers/writing-lua-scripts/callback.md)
   * [Examples](developers/writing-lua-scripts/examples.md)
+  * [Compiling lua scripts](developers/writing-lua-scripts/compiling-lua-scripts.md)
 * [API Documentation](developers/api-documentation/README.md)
   * [enums](developers/api-documentation/enums/README.md)
     * [CallbackResult](developers/api-documentation/enums/callbackresult.md)
