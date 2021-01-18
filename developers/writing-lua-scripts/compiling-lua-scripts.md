@@ -4,7 +4,7 @@
 
 \*\*\*\*
 
-\*\*\*\*
+Download
 
 1. Download the archive and extract it anywhere
 2. Copy the script you want to compile into the extracted folder
