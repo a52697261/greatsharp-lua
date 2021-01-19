@@ -1,5 +1,5 @@
 ---
-description: Spell class.
+description: Spelldata class.
 ---
 
 # Spell

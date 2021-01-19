@@ -14,6 +14,7 @@ description: Buff class.
 * `type`\([BuffType](../enums/bufftype.md)\)
 * `owner`\([AIBaseClient](aibaseclient.md)\)
 * `source`\([AIBaseClient](aibaseclient.md)\)
+* `hash`\(integer\)
 
 \`\`
 

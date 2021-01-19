@@ -36,7 +36,7 @@ Fired ****before orbwalker want to attack someone.
 
 | Key | Description |
 | :--- | :--- |
-| **BeforeAttackOrbwalkerArgs** | args. |
+| **BeforeAttackOrbwalkerArgs** | [Args](../api-documentation/callback-args/beforeattackorbwalkerargs.md). |
 
 ### 
 
@@ -46,7 +46,7 @@ Fired ****when orbwalker finish attack.
 
 | Key | Description |
 | :--- | :--- |
-| **AfterAttackOrbwalkerArgs** | args. |
+| **AfterAttackOrbwalkerArgs** | [Args](../api-documentation/callback-args/afterattackorbwalkerargs.md). |
 
 ### 
 
@@ -56,7 +56,7 @@ Fired ****when issue order**.**
 
 | Key | Description |
 | :--- | :--- |
-| **issueorderargs\_t** | args. |
+| **issueorderargs\_t** | [Args](../api-documentation/callback-args/issueorderargs_t.md). |
 
 
 
@@ -66,8 +66,8 @@ Fired ****when a spell finish cast.
 
 | Key | Description |
 | :--- | :--- |
-| **sender** | AIBaseClient**.** |
-| **castargs\_t** | args. |
+| **sender** | [AIBaseClient](../api-documentation/class/aibaseclient.md)**.** |
+| **castargs\_t** | [args](../api-documentation/callback-args/castargs_t.md). |
 
 #### 
 
@@ -77,8 +77,8 @@ Fired ****when a spell stop cast.
 
 | Key | Description |
 | :--- | :--- |
-| **sender** | AIBaseClient**.** |
-| **castargs\_t** | args. |
+| **sender** | [AIBaseClient](../api-documentation/class/aibaseclient.md)**.** |
+| **castargs\_t** | [Args](../api-documentation/callback-args/castargs_t.md). |
 
 #### 
 
@@ -88,8 +88,8 @@ Fired ****when a spell start cast.
 
 | Key | Description |
 | :--- | :--- |
-| **sender** | AIBaseClient**.** |
-| **castargs\_t** | args. |
+| **sender** | [AIBaseClient](../api-documentation/class/aibaseclient.md)**.** |
+| **castargs\_t** | [Args](../api-documentation/callback-args/castargs_t.md). |
 
 #### 
 
@@ -99,8 +99,8 @@ Fired ****when a spell slot name change.
 
 | Key | Description |
 | :--- | :--- |
-| **sender** | AIBaseClient**.** |
-| **slot** | Spellslot. |
+| **sender** | [AIBaseClient](../api-documentation/class/aibaseclient.md)**.** |
+| **slot** | [Spellslot](../api-documentation/enums/spellslot.md). |
 | **name** | String. |
 
 #### 
@@ -111,7 +111,7 @@ Fired ****when local cast spell.
 
 | Key | Description |
 | :--- | :--- |
-| **castspellargs\_t** | args**.** |
+| **castspellargs\_t** | [Args](../api-documentation/callback-args/castspellargs_t.md)**.** |
 
 
 
@@ -142,7 +142,7 @@ Fired ****when print a message to game chat.
 | Key | Description |
 | :--- | :--- |
 | **message** | String**.** |
-| **flags** | integer. |
+| **flags** | Integer. |
 
 
 
@@ -152,9 +152,9 @@ Fired ****when new path create.
 
 | Key | Description |
 | :--- | :--- |
-| **sender** | AIbaseClient**.** |
-| **isDash** | boolean. |
-| **dashSpeed** | number. |
+| **sender** | [AIbaseClient](../api-documentation/class/aibaseclient.md)**.** |
+| **isDash** | Boolean. |
+| **dashSpeed** | Number. |
 | **path** | Path array. |
 
 **Note**: I think sometimes this callback is not reliable.When Leesin R kick someone path may incorrect.
@@ -171,6 +171,28 @@ end)
 {% endcode %}
 
 
+
+
+
+### OnGainLoseBuff
+
+Fired ****when gain or lose buff.
+
+| Key | Description |
+| :--- | :--- |
+| **buffScriptInstance** | [BuffScript](../api-documentation/class/buffscript.md)**.** |
+| **isGain** | Boolean. |
+
+\*\*\*\*
+
+### OnUpdateBuff
+
+Fired ****when buff ****update.
+
+| Key | Description |
+| :--- | :--- |
+| **sender** | [AIBaseClient](../api-documentation/class/aibaseclient.md). |
+| **buffInstance** | [Buff](../api-documentation/class/buff.md). |
 
 
 

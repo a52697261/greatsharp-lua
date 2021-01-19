@@ -7,6 +7,7 @@ description: Inherited from GameObject and AttackableUnit class.
 ## property:
 
 * `spellBook`\([Spellbook](spellbook.md)\)
+* `buffManager`\([BuffManager](buffmanager.md)\)
 * `isZombie`\(boolean\)
 * `charName`\(string\)
 * `actionState`\(integer\)
@@ -265,4 +266,8 @@ Returns Buff stacks find by fnv\_hash\(name\).
 | **target** | `AttackableUnit` | Target could be null. |
 
 Returns real auto attack range \(worked for Azir , Aphelios ,Caitlyn and all heroes\).
+
+
+
+"buffs", sol::property\( &IEntity::GetBuffManager \),
 
